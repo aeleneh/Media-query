@@ -90,18 +90,17 @@ font-weight: 50;
  color: red;
 }
 @media screen and (max-width:700px){
- #wrap {
-  display: flex;
+ #wrap {display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   }
   input{
-   width: 180px;
-   position: relative;
-   left: -2px;
+    width: 180px;
+    position: relative;
+    left: -2px;
   }
   .clicking{
     position: relative;
     left: -2px;
- }
+  }
 }
