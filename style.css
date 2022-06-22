@@ -91,16 +91,16 @@ font-weight: 50;
 }
 @media screen and (max-width:700px){
  #wrap {display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+ flex-direction: column;
+ flex-wrap: wrap;
   }
-  input{
-    width: 180px;
-    position: relative;
-    left: -2px;
+ input{
+ width: 180px;
+ position: relative;
+ left: -2px;
   }
-  .clicking{
-    position: relative;
-    left: -2px;
+ .clicking{
+  position: relative;
+  left: -2px;
  }
 }
