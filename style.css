@@ -9,6 +9,17 @@ body{
  background-image: url(./bg-intro-desktop.png);
  font-family: 'Poppins', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ background-color: hsl(0, 100%, 74%);
+ background-image: url(./bg-intro-desktop.png);
+ font-family: 'Poppins', sans-serif;
+}
 #wrap{
  display: flex;
  flex-direction: row;
@@ -50,6 +61,7 @@ h1{
  color: white;
  border-radius: 5px;
  text-align: center;
+ box-shadow: 0 5px 0 #e46c70;
 }
 .right-content2{
  font-size: xx-small;
@@ -67,15 +79,15 @@ input{
  padding: 10px 10px;
  width: 140%;
  margin-top: 10px;
- color: hsl(246, 25%, 77%);
+ border-color: #fafafa;
  border-radius: 5px;
  position: relative;
  right: -16px;
 }
 .button{
- background-color: hsl(154, 59%, 51%);
+ background-color: hsl(154, 50%, 51%);
  color: white;
- border: hsl(154, 59%, 51%);
+ border: hsl(154, 50%, 51%);
 }
 .clicking{
 color: hsl(246, 25%, 77%);
@@ -88,8 +100,18 @@ font-weight: 50;
  font: bold;
  color: red;
 }
-@media screen and (max-width:583px){
- body {
-   background-color: lightblue;
+@media screen and (max-width:700px){
+ #wrap {display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  }
+  input{
+    width: 180px;
+    position: relative;
+    left: -2px;
+  }
+  .clicking{
+    position: relative;
+    left: -2px;
   }
 }
